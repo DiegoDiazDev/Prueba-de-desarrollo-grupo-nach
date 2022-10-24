@@ -1,0 +1,28 @@
+.upload-view {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 1.25%;
+  @media (max-width: 750px) {
+    row-gap: 50px;
+  }
+
+  &__image-container {
+    width: 19%;
+    height: 250px;
+    @media (max-width: 750px) {
+      width: 100%;
+    }
+    .upload-btn {
+      width: 100%;
+      height: 100%;
+      background: black;
+      color: white;
+      border-radius: 15px;
+      cursor: pointer;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.login-form {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  padding: 15px 25px;
+  flex-wrap: wrap;
+  align-content: center;
+
+  &__title {
+    width: 100%;
+    color: black;
+    font-size: 25px;
+  }
+  &__about {
+    width: 100%;
+    color: black;
+    margin-top: 10px;
+    line-height: 180%;
+  }
+  &__form {
+    width: 400px;
+    height: 250px;
+    padding: 20px 0px;
+    .login-input {
+      width: 100%;
+      height: 70px;
+      margin-top: 0px;
+      &__label {
+        width: 100%;
+        height: 28px;
+        font-weight: bold;
+      }
+      &__input {
+        width: 100%;
+        height: calc(100% - 28px);
+        .input {
+          width: 100%;
+          height: 100%;
+          background: transparent;
+          border: none;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    .login-button {
+      width: 100%;
+      height: 50px;
+      cursor: pointer;
+      border: solid 1px;
+      color: #3c37ff;
+      border-radius: 5px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .login-link {
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
